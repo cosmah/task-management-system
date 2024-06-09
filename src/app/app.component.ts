@@ -9,6 +9,14 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
+@Component({
+  selector:'app-login',
+  standalone: true,
+  imports:[CommonModule, RouterOutlet],
+  templateUrl: './login.component.html',
+  styleUrl: './login.componen.css'
+})
 export class AppComponent {
   title = 'task-management-system';
 }
